@@ -1,6 +1,6 @@
 # amplicon_processing
 
-Section including multiple scripts and workflows for amplicon processing used at ICM CSIC, Barcelona.
+Section including multiple scripts and workflows for amplicon processing I use at ICM CSIC, Barcelona.
 
 
 
