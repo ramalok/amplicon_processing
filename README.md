@@ -31,6 +31,8 @@
       gb203_pr2_all_10_28_99p.min1000bp_max2000bp_45572seqs.fasta : PR2 gb203, 99% clustering (18S)
       MAS_V4_9059_names.fasta : MAS DB (in-house V4-18S DB) 
 
+      https://www.dropbox.com/s/b3mimstj62bzssj/SSU_dbs.zip?dl=0
+
 ### 3) Architecture: 
       The workflow has been tested in an IBM iDataPlex cluster using SGE with CentOS.
 
