@@ -18,7 +18,7 @@
       python
       perl
 
-* If Usearch 64bits is not available, Vsearch and Usearch 32bits (free) are combined.
+* If Usearch 64bits is not available, Vsearch and Usearch 32bits (free) are combined (need to use correct bashscript)
 
 ### 2) SSU Databases
       SILVA 11x :http://www.arb-silva.de/download/archive/
