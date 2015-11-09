@@ -49,7 +49,8 @@
       SAMPLEn_L001_R2.fastq.gz
    
       Files should include sample names and a number of characters that can be used as separators. In the example  
-      above, L001 is used to extract the sample names from the file names (sample names are to the left of L001).        One folder will be automatically generated for each sample, and corresponding files will me moved inside.
+      above, L001 is used to extract the sample names from the file names (sample names are to the left of L001).
+      One folder will be automatically generated for each sample, and corresponding files will me moved inside.
 
 ### 4) Run workflow scripts:
      
