@@ -41,7 +41,14 @@
       Files should include sample names and a number of characters that can be used as separators. In the example  
       above, L001 is used to extract the sample names from the file names. One folder will be automatically 
       generated for each sample, and corresponding files will me moved inside.
-   
+
+#### 5) Output files:
+      otu_table97.txt : otu table tab-separated
+      otus97_repset_clean.fa : representative sequence set
+      blastn_vs_SILVA_v11x_evalue10min4 : blast classification
+      chimeric_OTUs.fa : chimeric otus
+      uparse.out : results from Uparse clustering
+      NB: other less important output files will be documented in the future
    
    
    
