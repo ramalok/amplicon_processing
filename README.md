@@ -6,9 +6,7 @@ Bash workflows for MiSeq amplicon processing.
 
 Observations:
 
-1) Scripts are run in a cluster (IBM iDataPlex) using SGE.
-
-2) Needed software/scripts 
+1) Needed software/scripts 
 
 - Usearch : http://www.drive5.com/usearch/
 - Vsearch : https://github.com/torognes/vsearch
@@ -22,6 +20,8 @@ Observations:
 
 NB: If Usearch 64bits is not available, Vsearch and Usearch 32bits (free) are combined.
 
-3) SSU Databases
+2) SSU Databases
 - SILVA 11x
 - PR2
+
+3) The workflow has been tested in an IBM iDataPlex cluster using SGE with CentOS.
