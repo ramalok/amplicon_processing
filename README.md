@@ -2,7 +2,8 @@
       
       Questions : ramiro.logares at gmail.com      
       Distributed without warranty
-
+      Runs as a Linux bashscript
+      (The workflows have been used in an IBM iDataPlex cluster using SGE with CentOS Linux)
 
 # How-To:
 
@@ -67,5 +68,3 @@
       uparse.out : results from Uparse clustering
       NB: other less important output files will be documented in the future
   
-### 6) Hardware architecture: 
-      The workflow has been used in an IBM iDataPlex cluster using SGE with CentOS Linux.
