@@ -1,4 +1,4 @@
-#  Workflows for MiSeq amplicon processing using UPARSE
+#  UPARSE workflows for MiSeq amplicons
       
       Questions : ramiro.logares at gmail.com      
       Distributed without warranty
