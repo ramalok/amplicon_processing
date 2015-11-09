@@ -4,11 +4,11 @@
       Distributed without warranty
 
 
-# Important points:
+# How-To:
 
-### 1) Needed software/scripts 
+### 1) Needed software/scripts: 
 
-      The following software needs to be in your user search path or in the jobscript.  
+      The following software needs to be in your user search path or in the SGE jobscript.  
 
       Usearch* : http://www.drive5.com/usearch/
       Vsearch : https://github.com/torognes/vsearch
@@ -22,7 +22,7 @@
 
 * If Usearch 64bits is not available, Vsearch and Usearch 32bits (free) are combined (need to use correct bashscript)
 
-### 2) SSU Databases
+### 2) SSU Databases:
       Typically used databases (for classification and chimera-check):      
       SILVA 11x :http://www.arb-silva.de/download/archive/
       PR2 : http://ssu-rrna.org/
@@ -45,10 +45,9 @@
       SAMPLEn_L001_R2.fastq.gz
    
       Files should include sample names and a number of characters that can be used as separators. In the example  
-      above, L001 is used to extract the sample names from the file names. One folder will be automatically 
-      generated for each sample, and corresponding files will me moved inside.
+      above, L001 is used to extract the sample names from the file names (sample names are to the left of L001).        One folder will be automatically generated for each sample, and corresponding files will me moved inside.
 
-### 4) Run workflow scripts (bin/bash):
+### 4) Run workflow scripts:
      
       Workflows are given as different bashscripts. Scripts filenames intend to be self-explanatory.
       Select the script you need:
@@ -68,5 +67,5 @@
       uparse.out : results from Uparse clustering
       NB: other less important output files will be documented in the future
   
-### 6) Architecture: 
-      The workflow has been tested in an IBM iDataPlex cluster using SGE with CentOS.
+### 6) Hardware architecture: 
+      The workflow has been used in an IBM iDataPlex cluster using SGE with CentOS Linux.
