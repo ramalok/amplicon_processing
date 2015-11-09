@@ -24,15 +24,16 @@ NB: If Usearch 64bits is not available, Vsearch and Usearch 32bits (free) are co
   - SILVA 11x
   - PR2
 
-### 3) The workflow has been tested in an IBM iDataPlex cluster using SGE with CentOS.
+### 3) Architecture: 
+      The workflow has been tested in an IBM iDataPlex cluster using SGE with CentOS.
 
 ### 4) There should be two compressed fastq files per sample R1 & R2. File should be named e.g. 
-   SAMPLE1_L001_R1.fastq.gz
-   SAMPLE1_L001_R2.fastq.gz
-   SAMPLE2_L001_R1.fastq.gz
-   SAMPLE2_L001_R2.fastq.gz
-   SAMPLEn_L001_R1.fastq.gz
-   SAMPLEn_L001_R2.fastq.gz
+      SAMPLE1_L001_R1.fastq.gz
+      SAMPLE1_L001_R2.fastq.gz
+      SAMPLE2_L001_R1.fastq.gz
+      SAMPLE2_L001_R2.fastq.gz
+      SAMPLEn_L001_R1.fastq.gz
+      SAMPLEn_L001_R2.fastq.gz
    
    Files should include sample names and a number of characters that can be used as separators. In the example    
    above, L001 is used to extract the sample names from the file names. One folder will be automatically generated    for each sample, and corresponding files will me moved inside.
