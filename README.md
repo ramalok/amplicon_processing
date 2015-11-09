@@ -38,8 +38,8 @@ There should be two compressed fastq files per sample R1 & R2. File should be na
       SAMPLEn_L001_R1.fastq.gz
       SAMPLEn_L001_R2.fastq.gz
    
-   Files should include sample names and a number of characters that can be used as separators. In the example    
-   above, L001 is used to extract the sample names from the file names. One folder will be automatically generated    for each sample, and corresponding files will me moved inside.
+      Files should include sample names and a number of characters that can be used as separators. In the example  
+      above, L001 is used to extract the sample names from the file names. One folder will be automatically              generated    for each sample, and corresponding files will me moved inside.
    
    
    
