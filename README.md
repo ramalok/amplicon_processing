@@ -4,7 +4,7 @@
                  (given without any warranty)
 
 
-Observations:
+# Important points:
 
 1) Needed software/scripts 
 
