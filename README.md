@@ -21,8 +21,9 @@
 NB: If Usearch 64bits is not available, Vsearch and Usearch 32bits (free) are combined.
 
 ### 2) SSU Databases
-  - SILVA 11x
-  - PR2
+  - SILVA 11x :http://www.arb-silva.de/download/archive/
+  - PR2 : http://ssu-rrna.org/
+      Databases need to be formatted in order to be searchable by blastn
 
 ### 3) Architecture: 
       The workflow has been tested in an IBM iDataPlex cluster using SGE with CentOS.
