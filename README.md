@@ -40,7 +40,16 @@
       above, L001 is used to extract the sample names from the file names. One folder will be automatically 
       generated for each sample, and corresponding files will me moved inside.
 
-### 5) Output files:
+### 5) Run workflow scripts (bin/bash):
+      Workflows are given as different bashscripts. Scripts filenames intend to be self-explanatory.
+      Select the script you need:
+      
+      1) 97% clustering , no singletons
+      UPARSE_workflow_97clust_v1.5_usearch_64bits_no_singletons_pear_BayesHammer.sh
+      
+      NB: to change the options for your run, you need to edit the bashscripts
+      
+### 6) Output files:
       otu_table97.txt : otu table tab-separated
       otus97_repset_clean.fa : representative sequence set
       blastn_vs_SILVA_v11x_evalue10min4 : blast classification
