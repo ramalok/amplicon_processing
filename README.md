@@ -40,7 +40,15 @@
       above, L001 is used to extract the sample names from the file names. One folder will be automatically 
       generated for each sample, and corresponding files will me moved inside.
 
-### 5) Run workflow scripts (bin/bash):
+### 5) SSU reference databases:
+      
+      These databases are used for classification and chimera-check.
+      SILVA_119.1_SSURef_Nr99_tax_silva.534968seqs_no_spacenames.fasta : SILVA 119.1, 99% clustering (16S & 18S)
+      gb203_pr2_all_10_28_99p.min1000bp_max2000bp_45572seqs.fasta : PR2 gb203, 99% clustering (18S)
+      MAS_V4_9059_names.fasta : MAS DB (in-house V4-18S DB) 
+      
+
+### 6) Run workflow scripts (bin/bash):
      
       Workflows are given as different bashscripts. Scripts filenames intend to be self-explanatory.
       Select the script you need:
@@ -52,7 +60,7 @@
       
       NB: to select the options for your run, edit the bashscripts. You may need to adapt it for your hardware and queue system.
       
-### 6) Output files:
+### 7) Output files:
       otu_table97.txt : otu table tab-separated
       otus97_repset_clean.fa : representative sequence set
       blastn_vs_SILVA_v11x_evalue10min4 : blast classification
