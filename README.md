@@ -1,7 +1,7 @@
 #  Workflows for MiSeq amplicon processing 
       
       Questions : ramiro.logares at gmail.com      
-      Given without any warranty
+      Distributed without warranty
 
 
 # Important points:
@@ -33,10 +33,7 @@
 
       https://www.dropbox.com/s/b3mimstj62bzssj/SSU_dbs.zip?dl=0
 
-### 3) Architecture: 
-      The workflow has been tested in an IBM iDataPlex cluster using SGE with CentOS.
-
-### 4) Sample names:
+### 3) Sample names:
       There should be two compressed fastq files per sample R1 & R2. File should be named e.g. 
       SAMPLE1_L001_R1.fastq.gz
       SAMPLE1_L001_R2.fastq.gz
@@ -49,7 +46,7 @@
       above, L001 is used to extract the sample names from the file names. One folder will be automatically 
       generated for each sample, and corresponding files will me moved inside.
 
-### 5) Run workflow scripts (bin/bash):
+### 4) Run workflow scripts (bin/bash):
      
       Workflows are given as different bashscripts. Scripts filenames intend to be self-explanatory.
       Select the script you need:
@@ -61,13 +58,13 @@
       
       NB: to select the options for your run, edit the bashscripts. You may need to adapt it for your hardware and queue system.
       
-### 6) Output files:
+### 5) Output files:
       otu_table97.txt : otu table tab-separated
       otus97_repset_clean.fa : representative sequence set
       blastn_vs_SILVA_v11x_evalue10min4 : blast classification
       chimeric_OTUs.fa : chimeric otus
       uparse.out : results from Uparse clustering
       NB: other less important output files will be documented in the future
-   
-   
-   
+  
+### 6) Architecture: 
+      The workflow has been tested in an IBM iDataPlex cluster using SGE with CentOS.
