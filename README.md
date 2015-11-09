@@ -36,8 +36,11 @@
 
       https://www.dropbox.com/s/b3mimstj62bzssj/SSU_dbs.zip?dl=0
 
-### 3) Sample names:
-      There should be two compressed fastq files per sample R1 & R2. File should be named e.g. 
+### 3) Input files and sample names:
+
+      The input files are demultiplexed fastq files. There should be two compressed fastq files per sample R1 & R2.
+      File should be named e.g. 
+      
       SAMPLE1_L001_R1.fastq.gz
       SAMPLE1_L001_R2.fastq.gz
       SAMPLE2_L001_R1.fastq.gz
@@ -68,3 +71,10 @@
       uparse.out : results from Uparse clustering
       NB: other less important output files will be documented in the future
   
+### 6) Other notes:
+
+      Quality check: you may want to run a quality check of the sequences before running the workflow (e.g. this can be done with fastx : http://hannonlab.cshl.edu/fastx_toolkit/
+      
+      Primers: by default they are retained. You can remove them if needed.
+      
+      
