@@ -39,7 +39,7 @@
 ### 3) Input files and sample names:
 
       The input files are demultiplexed fastq files. There should be two compressed fastq files per sample R1 & R2.
-      File should be named e.g. 
+      Files should be named e.g. 
       
       SAMPLE1_L001_R1.fastq.gz
       SAMPLE1_L001_R2.fastq.gz
