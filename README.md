@@ -6,7 +6,7 @@
 
 # Important points:
 
-1) Needed software/scripts 
+## 1) Needed software/scripts 
 
   - Usearch : http://www.drive5.com/usearch/
   - Vsearch : https://github.com/torognes/vsearch
