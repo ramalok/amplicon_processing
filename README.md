@@ -4,6 +4,23 @@
       Distributed without warranty
       Runs as a Linux bashscript (The workflows have been used in an IBM iDataPlex cluster using SGE with CentOS Linux)
       UPARSE:   http://drive5.com/uparse/    
+      
+      Main steps:
+      
+      a) Error correction with BayesHammer (see: http://nar.oxfordjournals.org/content/early/2015/01/13/nar.gku1341)
+      b) Merging reads with PEAR
+      c) Quality filtering, length check and fasta coversion with Usearch
+      d) Generate simple fasta headers
+      e) Reads are put into the correct 5'-3' direction and check for rDNA signature using HMM (miTags protocol)
+      f) Reads are renamed into Uparse format
+      g) Dereplication using Usearch 64bits or Vsearch
+      h) Sort by abundance and discard singletons using usearch 64bits or vsearch
+      i) Clustering using UPARSE as implemented in USEARCH (32 or 64bits)
+      j) Run reference-based chimera check
+      k) Label OTU sequences
+      l) Map reads (including singletons) back to OTUs to estimate OTU abundance; using usearch 64 bits or vsearch
+      m) Generate otu table
+      o) Classify otus using BLASTn against corresponding SSU databases
 
 # How-To:
 
