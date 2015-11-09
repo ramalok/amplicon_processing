@@ -14,7 +14,7 @@
       BayesHammer: http://bioinf.spbau.ru/spades
       Pear: http://sco.h-its.org/exelixis/web/software/pear/doc.html
       Augustus scripts : http://bioinf.uni-greifswald.de/augustus/
-      miTag extraction protocol scripts/programs: doi: 10.1111/1462-2920.12250
+      miTag extraction protocol : https://github.com/ramalok/mitags_extraction_protocol/blob/master/miTAGs_extraction_protocol.zip  (doi: 10.1111/1462-2920.12250)
       blastn
       python
       perl
