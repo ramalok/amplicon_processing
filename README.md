@@ -8,6 +8,8 @@
 
 ### 1) Needed software/scripts 
 
+      The following software needs to be in your user search path or in the jobscript.  
+
       Usearch* : http://www.drive5.com/usearch/
       Vsearch : https://github.com/torognes/vsearch
       BayesHammer: http://bioinf.spbau.ru/spades
