@@ -1,7 +1,7 @@
 # amplicon_processing #
 
 #  Bash workflows for MiSeq amplicon processing 
-                 (given without any warranty)
+      (given without any warranty)
 
 
 # Important points:
