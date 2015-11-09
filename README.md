@@ -1,7 +1,8 @@
 # amplicon_processing #
 
 #  Bash workflows for MiSeq amplicon processing 
-      (given without any warranty)
+      By Ramiro Logares      
+      Given without any warranty
 
 
 # Important points:
