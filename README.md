@@ -27,7 +27,8 @@ NB: If Usearch 64bits is not available, Vsearch and Usearch 32bits (free) are co
 ### 3) Architecture: 
       The workflow has been tested in an IBM iDataPlex cluster using SGE with CentOS.
 
-### 4) There should be two compressed fastq files per sample R1 & R2. File should be named e.g. 
+### 4) Sample names:
+There should be two compressed fastq files per sample R1 & R2. File should be named e.g. 
       SAMPLE1_L001_R1.fastq.gz
       SAMPLE1_L001_R2.fastq.gz
       SAMPLE2_L001_R1.fastq.gz
