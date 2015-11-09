@@ -1,9 +1,9 @@
-#  Workflows for MiSeq amplicon processing 
+#  Workflows for MiSeq amplicon processing using UPARSE
       
       Questions : ramiro.logares at gmail.com      
       Distributed without warranty
-      Runs as a Linux bashscript
-      (The workflows have been used in an IBM iDataPlex cluster using SGE with CentOS Linux)
+      Runs as a Linux bashscript (The workflows have been used in an IBM iDataPlex cluster using SGE with CentOS Linux)
+      UPARSE:   http://drive5.com/uparse/    
 
 # How-To:
 
