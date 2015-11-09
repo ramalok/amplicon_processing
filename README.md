@@ -1,4 +1,5 @@
-#  Bash workflows for MiSeq amplicon processing 
+#  Workflows for MiSeq amplicon processing 
+      
       Questions : ramiro.logares at gmail.com      
       Given without any warranty
 
