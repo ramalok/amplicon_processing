@@ -42,7 +42,7 @@
       above, L001 is used to extract the sample names from the file names. One folder will be automatically 
       generated for each sample, and corresponding files will me moved inside.
 
-#### 5) Output files:
+### 5) Output files:
       otu_table97.txt : otu table tab-separated
       otus97_repset_clean.fa : representative sequence set
       blastn_vs_SILVA_v11x_evalue10min4 : blast classification
