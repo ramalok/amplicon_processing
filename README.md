@@ -1,6 +1,6 @@
 # amplicon_processing #
 
-#!/bin/bash ==>  workflows for MiSeq amplicon processing 
+==>  Bash workflows for MiSeq amplicon processing 
                  (given without any warranty)
 
 
