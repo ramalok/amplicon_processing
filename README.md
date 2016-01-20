@@ -32,7 +32,7 @@
       Vsearch : https://github.com/torognes/vsearch
       BayesHammer: http://bioinf.spbau.ru/spades
       Pear: http://sco.h-its.org/exelixis/web/software/pear/doc.html
-      Augustus scripts : http://bioinf.uni-greifswald.de/augustus/
+      Augustus scripts : http://bioinf.uni-greifswald.de/augustus/ . Specifically: http://sourceforge.net/u/djinnome/jamg/ci/1ee93a83a6a3930c3993de6c404b1ed0522bde57/tree/3rd_party/augustus.2.7/scripts/simplifyFastaHeaders.pl
       miTag extraction protocol : https://github.com/ramalok/mitags_extraction_protocol/blob/master/miTAGs_extraction_protocol.zip  (doi: 10.1111/1462-2920.12250)
       blastn
       python
