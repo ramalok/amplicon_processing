@@ -83,7 +83,7 @@ date
 
 ## Note: spades should be in your search path
 
-for i in $(ls -d *); do cd $i; spades.py --only-error-correction -1 Raw/*_R1* -2  Raw/*_R2* -o $i.corrected ;cd ..; done
+for i in $(ls -d *); do cd $i; spades.py --only-error-correction -1 Raw/*_R1.* -2  Raw/*_R2.* -o $i.corrected ;cd ..; done
 
 echo "########################################"
 echo "DONE ERROR CORRECTION WITH BAYES HAMMER "
@@ -99,7 +99,7 @@ echo "#######################"
 #### RUN PEAR #########
 #######################
 
-for i in $(ls -d *); do cd $i; pear -j 24 -n 200  -o $i  -f $i.corrected/corrected/*R1* -r $i.corrected/corrected/*R2* ;cd ..; done  
+for i in $(ls -d *); do cd $i; pear -j 24 -n 200  -o $i  -f $i.corrected/corrected/*_R1.* -r $i.corrected/corrected/*_R2.* ;cd ..; done  
 
 
 echo "################################"
