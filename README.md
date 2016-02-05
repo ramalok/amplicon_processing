@@ -68,6 +68,7 @@
       Files should include sample names and a number of characters that can be used as separators. In the example  
       above, L001 is used to extract the sample names from the file names (sample names are to the left of L001).
       One folder will be automatically generated for each sample, and corresponding files will me moved inside.
+      NB: Avoid using R1 and R2 more than once in the filenames (they should strictly be used for indicating read directions)
 
 ### 4) Run workflow scripts:
      
