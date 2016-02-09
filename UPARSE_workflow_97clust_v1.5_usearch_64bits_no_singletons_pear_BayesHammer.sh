@@ -164,7 +164,7 @@ for i in $(ls -d *); do cd $i; $mitags/rna_hmm3.py -i $i.fna -o $i.rRNA -m ssu,l
 
 for i in $(ls -d *); do cd $i; $mitags/parse_rna_hmm3_output.pl $i.rRNA ;cd ..; done
 
-for i in $(ls -d *); do cd $i; $mitags/extract_rrna_seqs_v2.pl $i.rRNA.parsed 1 100 ;cd ..; done  # 100 min read lenght
+for i in $(ls -d *); do cd $i; $mitags/extract_rrna_seqs.pl $i.rRNA.parsed 1 100 ;cd ..; done  # 100 min read lenght
 
 
 echo "###############################"
