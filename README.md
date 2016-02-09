@@ -29,6 +29,7 @@
       The following software needs to be in your user search path or in the SGE jobscript.  
 
       Usearch* : http://www.drive5.com/usearch/
+      Usearch scripts: http://drive5.com/python/summary.html
       Vsearch : https://github.com/torognes/vsearch
       BayesHammer: http://bioinf.spbau.ru/spades
       Pear: http://sco.h-its.org/exelixis/web/software/pear/doc.html
