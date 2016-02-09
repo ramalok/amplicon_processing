@@ -158,7 +158,7 @@ HMM3=/path/miTAGs_extraction_protocol/HMM3
 scripts=/path/UPARSE/scripts # scripts from USEARCH
 
 
-for i in $(ls -d *); do cd $i; $cdbfasta $i.fna ;cd ..; done
+for i in $(ls -d *); do cd $i; $cdbfasta/cdbfasta $i.fna ;cd ..; done
 
 for i in $(ls -d *); do cd $i; $mitags/rna_hmm3.py -i $i.fna -o $i.rRNA -m ssu,lsu -k bac,arc,euk -p 24   -L $HMM3;cd ..; done  # include -p n for multithreading
 
