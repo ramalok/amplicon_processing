@@ -9,7 +9,7 @@ clear
 echo "-------------------------------------------------------------------"
 echo "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 echo " "
-echo "               UPARSE workflow v1.5 | Nov. 2015                     "
+echo "               UPARSE workflow v2.0 | Apr. 2016                     "
 echo " "
 echo " by Ramiro Logares,  October  2014                                  "
 echo " Includes Pear & BayesHammer"
@@ -265,9 +265,9 @@ echo "5) Labeling OTU repseq"
 
 python $scripts/fasta_number.py otus97_repset_nochimera.fa OTU_ > otus97_repset_clean.fa
 
-echo "6) Map all reads (including singletons) back to OTUs"
+echo "6) Map all reads (including singletons) back to OTUs. Using -maxhits 1 -maxaccepts 20 -maxrejects 50000 for higher sensitivity. Adjust -threads to your resources"
 
-$usearch -usearch_global $reads -db otus97_repset_clean.fa -strand plus -id 0.97 -uc map97.uc
+$usearch -usearch_global $reads -db otus97_repset_clean.fa -strand plus -id 0.97 -uc map97.uc -maxhits 1 -maxaccepts 20 -maxrejects 50000 -threads 24
 
 echo "7) Generate OTU table"
 
