@@ -265,9 +265,12 @@ echo "5) Labeling OTU repseq"
 
 python $scripts/fasta_number.py otus97_repset_nochimera.fa OTU_ > otus97_repset_clean.fa
 
-echo "6) Map all reads (including singletons) back to OTUs. Using -maxhits 1 -maxaccepts 20 -maxrejects 50000 for higher sensitivity. Adjust -threads to your resources"
+echo "6) Mapping all reads back to OTUs" 
 
-$usearch -usearch_global $reads -db otus97_repset_clean.fa -strand plus -id 0.97 -uc map97.uc -maxhits 1 -maxaccepts 20 -maxrejects 50000 -threads 24
+## Using -maxhits 1 -maxaccepts 20 -maxrejects 5000 for higher sensitivity. Adjust -threads to your resources
+## As a rule of thumb, the -maxrejects value should be similar to the number of sequences in "otus97_repset_clean.fa"
+
+$usearch -usearch_global $reads -db otus97_repset_clean.fa -strand plus -id 0.97 -uc map97.uc -maxhits 1 -maxaccepts 20 -maxrejects 5000 -threads 24
 
 echo "7) Generate OTU table"
 
