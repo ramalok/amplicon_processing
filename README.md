@@ -3,7 +3,8 @@
       Questions : ramiro.logares at gmail.com      
       Distributed without warranty
       Runs as a Linux bashscript (The workflows have been used in an IBM iDataPlex cluster using SGE with CentOS Linux)
-      UPARSE:   http://drive5.com/uparse/    
+      UPARSE:   http://drive5.com/uparse/
+   [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.259579.svg)](https://doi.org/10.5281/zenodo.259579)
       
       Main steps:
       
