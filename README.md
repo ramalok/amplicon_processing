@@ -4,6 +4,7 @@
       Distributed without warranty
       Runs as a Linux bashscript (The workflows have been used in an IBM iDataPlex cluster using SGE with CentOS Linux)
       UPARSE:   http://drive5.com/uparse/
+      Cite as: Logares, R. (2017). Workflow for Analysing MiSeq Amplicons based on Uparse v1.5. https://doi.org/10.5281/zenodo.259579
    [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.259579.svg)](https://doi.org/10.5281/zenodo.259579)
       
       Main steps:
