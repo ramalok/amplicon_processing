@@ -7,7 +7,7 @@
       Cite as: Logares, R. (2017). Workflow for Analysing MiSeq Amplicons based on Uparse v1.5. https://doi.org/10.5281/zenodo.259579
    [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.259579.svg)](https://doi.org/10.5281/zenodo.259579)
       
-      Main steps:
+# Main steps:
       
       a) Error correction with BayesHammer (see: http://nar.oxfordjournals.org/content/early/2015/01/13/nar.gku1341)
       b) Merging reads with PEAR
